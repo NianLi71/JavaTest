@@ -101,7 +101,7 @@ public class CollectorsToMap {
                 Function.identity(),
                 (existing, replacement) -> existing + "|" + replacement));
 
-        System.out.println(m + " " + m.getClass());
+        System.out.println(m + " " + m.getClass()); // {a=apple|apricot|apple, b=banana, o=orange} class java.util.HashMap
     }
 
     static void example2_3() {
@@ -122,7 +122,7 @@ public class CollectorsToMap {
                         (s1, s2) -> s1 + "|" + s2,
                         LinkedHashMap::new));
 
-        System.out.println(m + " " + m.getClass());
+        System.out.println(m + " " + m.getClass()); // {a=apple|apricot|apple, b=banana, o=orange} class java.util.LinkedHashMap
     }
 }
 
