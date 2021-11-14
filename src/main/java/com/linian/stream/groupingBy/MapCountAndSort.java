@@ -1,4 +1,4 @@
-package com.linian.groupingBy;
+package com.linian.stream.groupingBy;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;

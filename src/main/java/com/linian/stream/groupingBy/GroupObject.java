@@ -1,4 +1,4 @@
-package com.linian.groupingBy;
+package com.linian.stream.groupingBy;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
